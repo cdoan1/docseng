@@ -1,5 +1,7 @@
 # git helper
 
+## Sync your fork to Upstream
+
 1. sync your fork to upstream
 
 ```
@@ -40,4 +42,23 @@ NOTE: Alternatives
 ```
 git push origin master
 ```
+
+## Rebase Squash your branch
+
+1. Rebase by branch onto master
+
+```
+git checkout <development branch>
+git rebase master
+git push origin +HEAD
+```
+
+## Rebase and Squash your commits
+
+```
+git checkout <development branch>
+git rebase -i HEAD~n
+git push origin +HEAD
+```
+
 
