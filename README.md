@@ -1,24 +1,27 @@
-# docseng
+# git helper
 
-Naming convent scheme
+1. sync your fork to upstream
 
-| "proto" | "OCP release" | "variant" | "ipv4/6" | "iteration" | name |
-|---------|---------------|-----------|----------|-------------|------|
-| proto | 43 | hop   | 4 | 2 | proto43hop4-2 |
-| proto | 43 | hop   | 6 | 1 | proto43hop6-1 |
-| proto | 42 | mfest | 4 | 1 | proto42mfest4-1 |
-| proto | 43 | mfest | 6 | 1 | proto43mfest6-1 |
-| proto | 43 | mfest | 4 | 1 | proto43mfest4-1 |
-| proto | 42 | incep | 4 | 1 | proto42incp4-1 |
+```
+git clone git@github.com:YOUR-USERNAME/YOUR-FORKED-REPO.git
+```
 
-# Automation Deployment
+2. Add remote from original repository in your forked repository
 
-1. Using `bootstrap` and `inception` deploy from quay.io the current level of code, `3.3.0`
-   * one difference is that the helm charts are still coming from artifactory
-   * no changes to the `boostrap` code base
+```
+cd into/cloned/fork-repo
+git remote add upstream git://github.com/ORIGINAL-DEV-USERNAME/REPO-YOU-FORKED-FROM.git
+git fetch upstream
+```
 
+3. Updating your fork from original repo to keep up with their changes:
 
-2. Using `bootstrap`, swap out the `inception` job for the `manifest` job.
-   * steps to create the `manifest` job.
-     * create a Dockerfile for the `manifest` repo
-     * 
+```
+git pull upstream master
+```
+
+4. Update your fork repo
+
+```
+git push
+```
