@@ -20,8 +20,24 @@ git fetch upstream
 git pull upstream master
 ```
 
+NOTE: Alternatives
+
+```
+git rebase upstream master
+git merge upstream/master
+
+```
+
+
 4. Update your fork repo
 
 ```
 git push
 ```
+
+NOTE: Alternatives
+
+```
+git push origin master
+```
+
