@@ -22,3 +22,6 @@ as docker container. You can wrap this around a pod, and this becomes a kube ser
 The pod can then invoke kubernetes jobs, to run tasks, ie. e2e test jobs.
 
 
+# Problem
+
+1. how do we configure kubernetes clusters, that are not managed
