@@ -14,3 +14,11 @@ The entire flow looks something like this:
 
 github -> webhook -> ngrok server -> ngrok local -> webhook api service -> process POST data
 
+# Kubernetes
+
+The webhook api serivce / handler can be running inside kube as a service. Webhook golang project can be run
+as docker container. You can wrap this around a pod, and this becomes a kube service.
+
+The pod can then invoke kubernetes jobs, to run tasks, ie. e2e test jobs.
+
+
