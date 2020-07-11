@@ -1,5 +1,9 @@
-Demo Clusters | [link1](rhacm-managed.md) | [link](https://github.com/cdoan1/docseng/blob/master/docs/rhacm-managed.md)
--------------
+Demo Clusters | [Next](rhacm-managed.html)
+
+---------
+
+[link](https://github.com/cdoan1/docseng/blob/master/docs/rhacm-managed.md)
+
 
 Cluster API address
 https://api.released.demo.red-chesterfield.com:6443
