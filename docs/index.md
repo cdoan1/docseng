@@ -1,4 +1,4 @@
-Demo Clusters | [link1](./rhacm-managed.md) | [link](https://github.com/cdoan1/docseng/blob/master/docs/rhacm-managed.md)
+Demo Clusters | [link1](rhacm-managed.md) | [link](https://github.com/cdoan1/docseng/blob/master/docs/rhacm-managed.md)
 -------------
 
 Cluster API address
