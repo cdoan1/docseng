@@ -1,4 +1,4 @@
-# Content | [Back](index.html)
+# Content | [Back](index.md)
 
 Managed by RHACM
 
