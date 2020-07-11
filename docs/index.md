@@ -1,4 +1,4 @@
-Demo Clusters | [https://github.com/cdoan1/docseng/blob/master/docs](Link)
+Demo Clusters | [link](https://github.com/cdoan1/docseng/blob/master/docs)
 -------------
 
 Cluster API address
